@@ -14,7 +14,6 @@
 
 - name: apt - add passenger repo
   apt_repository:
-    repo: "deb https://oss-binaries.phusionpassenger.com/apt/passenger {{ ansible_lsb.codename }} main"
+    repo: "deb {{ passenger_apt_repository }} {{ ansible_lsb.codename }} maiin"
     update_cache: yes
     state: present
-

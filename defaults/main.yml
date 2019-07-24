@@ -2,3 +2,4 @@
 passenger_webserver: "standalone"
 passenger_pkgs_state: present
 passenger_pkgs_fix_shebang: no
+passenger_apt_repository: "https://oss-binaries.phusionpassenger.com/apt/passenger"

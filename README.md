@@ -17,6 +17,7 @@ Role Variables
 
 * `passenger_webserver`: Specifies the webserver to be used by passenger. Possible values: `apache`, `nginx` and `standalone`. Defaults to `standalone`.
 * `passenger_pkgs_state`: Specifies if this role will garantee that the packages are installed or installed and updated. Possible values: `installed` and `latest`. Defaults to `installed`.
+* `passenger_apt_repository`: Specifies the APT repository used to install passenger.
 
 License
 -------
